@@ -61,9 +61,3 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
-
-variable "local_state_file_path" {
-  description = "Path for storing state files"
-  type        = string
-  default     = "/"
-}
