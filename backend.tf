@@ -1,5 +1,5 @@
 terraform {
-	backend {
-		path=var.local_state_file_path
-	}
+  backend "local" {
+    path = "relative/path/to/terraform.tfstate"
+  }
 }
