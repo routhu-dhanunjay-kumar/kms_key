@@ -61,3 +61,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "kms_alias_name" {
+  description = "Alias name for kms key"
+  type        = string
+  default     = null
+}
