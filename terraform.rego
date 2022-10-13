@@ -3,7 +3,7 @@ package terraform.analysis
 import input as tfplan
 
 
-default kms_enabled = true
+default kms_enabled = false
 
 kms_enabled = true  {
     
