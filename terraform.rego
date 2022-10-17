@@ -8,5 +8,5 @@ default kms_enabled = false
 kms_enabled = true  {
     
    
-    input.resources[_].instances[_].attributes.is_enabled == true
+    input.resources[_].instances[_].attributes.is_enabled == false
 }
